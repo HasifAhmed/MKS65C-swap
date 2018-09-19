@@ -1,3 +1,4 @@
+//Hasif Ahmed Hot Swapping
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -28,7 +29,7 @@ int main(){
   int l;
   int o;
   for(l = 9; l >= 0; l--){
-    *(sp + l) = *(rp + 9 - l); //fill from opposite directions 
+    *(sp + l) = *(rp + 9 - l); //fill from opposite directions
   }
 
   int u;
